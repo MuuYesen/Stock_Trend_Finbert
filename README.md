@@ -5,7 +5,7 @@
  
  The crawler technology uses Xpath and Json technology to crawl 20W reviews on the stock bar forum of Oriental Fortune.com.
  
- The Finbert model supports layer-by-layer thawing and accumulation of gradients. At the same time, random segmentation of the data set is used in each epoch, which not only adds randomness to model training, reduces the risk of overfitting, and can alleviate the problem of small sample size to a certain extent. 
+ The Finbert model supports layer-by-layer thawing and accumulation of gradients. At the same time, random segmentation of the data set is used in each epoch, which not only adds  randomness to model training, reduces the risk of overfitting, and can alleviate the problem of small sample size to a certain extent. Finally, the bert model is encapsulated to facilitate future model expansion, and Finbert is given the Sklearn interface
  
  Hypothesis testing is used to assess the degree of correlation between polarity and stock gains in a certain period of time.
 # Issue to be solved
